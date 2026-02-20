@@ -14,19 +14,22 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item links-list-item_no-marker">
-            <a class="link-item-content link_active">главная</a>
+            <a href="#cover" class="link-item-content link_active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link-item-content">посмотреть лоты</a>
+            <a href="#lots" class="link-item-content">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link-item-content">о нас</a>
+            <a href="#about" class="link-item-content">об аукционе</a>
           </li>
         </ul>
       </nav>
-        <a class="logo-black">
-          <img src="./images/logo-black.svg" alt="Логотип аукциона 'Оно тебе надо'">
-        </a>
+      <a class="logo-black">
+        <img
+          src="./images/logo-black.svg"
+          alt="Логотип аукциона 'Оно тебе надо'"
+        />
+      </a>
       <address class="address header__address">
         <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -34,13 +37,20 @@
       </address>
     </header>
     <main>
-      <section class="cover">
-        <h1 class="cover-title"></h1>
-        <div class="description"><p></p></div>
-        <button class="cover-button"></button>
+      <section class="cover" id="cover">
+        <div class="cover-overlay"></div>
+        <h1 class="cover-title">
+          <span class="cover-title__text-left">оно</span>
+          <span class="cover-title__text-center">тебе</span>
+          <span class="cover-title__text-right">надо</span>
+        </h1>
+        <div class="cover-description">
+          <p class="cover-text">аукцион вещей, в которые никто не верил</p>
+          <button class="cover-button">сделать ставку</button>
+        </div>
       </section>
-      <section class="lots"></section>
-      <section class="about">
+      <section class="lots" id="lots"></section>
+      <section class="about" id="about">
         <div></div>
         <div>
           <h2></h2>
@@ -48,7 +58,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <address class="address footer__address">
         <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -57,17 +67,27 @@
       <nav class="footer__menu">
         <ul class="footer__links-list">
           <li class="footer__links-list-item links-list-item_no-marker">
-            <a href="" class="link-item-content link_active">главная</a>
+            <a href="#cover" class="link-item-content link_active">главная</a>
           </li>
-          <li class="footer__links-list-item">
-            <a href="#" class="link-item-content">посмотреть лоты</a>
+          <li class="footer__links-list-item links-list-item_no-marker">
+            <a href="#lots" class="link-item-content">посмотреть лоты</a>
           </li>
-          <li class="footer__links-list-item">
-            <a href="#" class="link-item-content">о нас</a>
+          <li class="footer__links-list-item links-list-item_no-marker">
+            <a href="#about" class="link-item-content">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <address class="social-links"></address>
+      <address class="social-links">
+        <a class="social-link" href="" title="Наш YouTube"
+          ><img src="./images/yt.svg" alt="Ссылка на наш Ютуб"
+        /></a>
+        <a class="social-link" href="" title="Наш ВКонтакте"
+          ><img src="./images/vk.svg" alt="Ссылка на наш ВКонтакте"
+        /></a>
+        <a class="social-link" href="" title="Наш Pinterest"
+          ><img src="./images/pinterest.svg" alt="Ссылка на наш Пинтерест"
+        /></a>
+      </address>
     </footer>
   </body>
 </html>
