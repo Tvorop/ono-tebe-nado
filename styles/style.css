@@ -1,5 +1,4 @@
 .header {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -113,24 +112,3 @@
   max-width: 48px;
   max-height: 48px;
 }
-=======
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-    padding: 92px 50px 96px;
-}
-.header__links-list {
-    display: flex;
-    list-style: circle;
-    gap: 30px;
-}
-.links-list-item_no-marker {
-    list-style: none;
-}
-.address {
-    display: flex;
-    flex-direction: column;
-    font-style: normal;
-    max-width: 200px;
-}
->>>>>>> 384931d64ba128a311bdb787d1c7d9e46535fe36
